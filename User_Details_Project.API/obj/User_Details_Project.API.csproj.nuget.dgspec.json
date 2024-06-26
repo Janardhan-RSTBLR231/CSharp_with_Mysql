@@ -1,0 +1,562 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.API\\User_Details_Project.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.API\\User_Details_Project.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.API\\User_Details_Project.API.csproj",
+        "projectName": "User_Details_Project.API",
+        "projectPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.API\\User_Details_Project.API.csproj",
+        "packagesPath": "C:\\Users\\Janardhan.R\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Janardhan.R\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.DataAccess\\User_Details_Project.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.DataAccess\\User_Details_Project.DataAccess.csproj"
+              },
+              "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Entities\\User_Details_Project.Entities.csproj": {
+                "projectPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Entities\\User_Details_Project.Entities.csproj"
+              },
+              "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Infrastructure\\User_Details_Project.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Infrastructure\\User_Details_Project.Infrastructure.csproj"
+              },
+              "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Services\\User_Details_Project.Services.csproj": {
+                "projectPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Services\\User_Details_Project.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.DataAccess\\User_Details_Project.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.DataAccess\\User_Details_Project.DataAccess.csproj",
+        "projectName": "User_Details_Project.DataAccess",
+        "projectPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.DataAccess\\User_Details_Project.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Janardhan.R\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Janardhan.R\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Entities\\User_Details_Project.Entities.csproj": {
+                "projectPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Entities\\User_Details_Project.Entities.csproj"
+              },
+              "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Infrastructure\\User_Details_Project.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Infrastructure\\User_Details_Project.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.DTO\\User_Details_Project.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.DTO\\User_Details_Project.DTO.csproj",
+        "projectName": "User_Details_Project.DTO",
+        "projectPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.DTO\\User_Details_Project.DTO.csproj",
+        "packagesPath": "C:\\Users\\Janardhan.R\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Janardhan.R\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Entities\\User_Details_Project.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Entities\\User_Details_Project.Entities.csproj",
+        "projectName": "User_Details_Project.Entities",
+        "projectPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Entities\\User_Details_Project.Entities.csproj",
+        "packagesPath": "C:\\Users\\Janardhan.R\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Janardhan.R\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Infrastructure\\User_Details_Project.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Infrastructure\\User_Details_Project.Infrastructure.csproj",
+        "projectName": "User_Details_Project.Infrastructure",
+        "projectPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Infrastructure\\User_Details_Project.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Janardhan.R\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Janardhan.R\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.DTO\\User_Details_Project.DTO.csproj": {
+                "projectPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.DTO\\User_Details_Project.DTO.csproj"
+              },
+              "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Entities\\User_Details_Project.Entities.csproj": {
+                "projectPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Entities\\User_Details_Project.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Services\\User_Details_Project.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Services\\User_Details_Project.Services.csproj",
+        "projectName": "User_Details_Project.Services",
+        "projectPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Services\\User_Details_Project.Services.csproj",
+        "packagesPath": "C:\\Users\\Janardhan.R\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Janardhan.R\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.DTO\\User_Details_Project.DTO.csproj": {
+                "projectPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.DTO\\User_Details_Project.DTO.csproj"
+              },
+              "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Entities\\User_Details_Project.Entities.csproj": {
+                "projectPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Entities\\User_Details_Project.Entities.csproj"
+              },
+              "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Infrastructure\\User_Details_Project.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Janardhan.R\\source\\repos\\User_Details_Project.API\\User_Details_Project.Infrastructure\\User_Details_Project.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

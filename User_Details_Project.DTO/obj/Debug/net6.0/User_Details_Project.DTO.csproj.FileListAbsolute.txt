@@ -1,0 +1,14 @@
+C:\Users\Janardhan.R\source\repos\User_Details_Project.API\User_Details_Project.DTO\bin\Debug\net6.0\User_Details_Project.DTO.deps.json
+C:\Users\Janardhan.R\source\repos\User_Details_Project.API\User_Details_Project.DTO\bin\Debug\net6.0\User_Details_Project.DTO.dll
+C:\Users\Janardhan.R\source\repos\User_Details_Project.API\User_Details_Project.DTO\bin\Debug\net6.0\User_Details_Project.DTO.pdb
+C:\Users\Janardhan.R\source\repos\User_Details_Project.API\User_Details_Project.DTO\obj\Debug\net6.0\User_Details_Project.DTO.csproj.AssemblyReference.cache
+C:\Users\Janardhan.R\source\repos\User_Details_Project.API\User_Details_Project.DTO\obj\Debug\net6.0\User_Details_Project.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Janardhan.R\source\repos\User_Details_Project.API\User_Details_Project.DTO\obj\Debug\net6.0\User_Details_Project.DTO.AssemblyInfoInputs.cache
+C:\Users\Janardhan.R\source\repos\User_Details_Project.API\User_Details_Project.DTO\obj\Debug\net6.0\User_Details_Project.DTO.AssemblyInfo.cs
+C:\Users\Janardhan.R\source\repos\User_Details_Project.API\User_Details_Project.DTO\obj\Debug\net6.0\User_Details_Project.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Janardhan.R\source\repos\User_Details_Project.API\User_Details_Project.DTO\obj\Debug\net6.0\User_Details_Project.DTO.dll
+C:\Users\Janardhan.R\source\repos\User_Details_Project.API\User_Details_Project.DTO\obj\Debug\net6.0\refint\User_Details_Project.DTO.dll
+C:\Users\Janardhan.R\source\repos\User_Details_Project.API\User_Details_Project.DTO\obj\Debug\net6.0\User_Details_Project.DTO.pdb
+C:\Users\Janardhan.R\source\repos\User_Details_Project.API\User_Details_Project.DTO\obj\Debug\net6.0\ref\User_Details_Project.DTO.dll
+C:\Users\Janardhan.R\source\repos\User_Details_Project.API\User_Details_Project.DTO\bin\Debug\net6.0\User_Details_Project.DTO.runtimeconfig.json
+C:\Users\Janardhan.R\source\repos\User_Details_Project.API\User_Details_Project.DTO\obj\Debug\net6.0\User_Details_Project.DTO.genruntimeconfig.cache
